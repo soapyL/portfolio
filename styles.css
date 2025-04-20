@@ -1,0 +1,533 @@
+body {
+	font-family: 'JetBrains Mono', monospace;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+div {
+	margin: auto;
+	width: 65%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+pre {
+	font-family: 'JetBrains Mono', monospace;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.black {
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.white {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%
+}
+
+.code {
+	background-color: #121212;
+	color: #FFFFFF;
+	width: 93%;
+	margin: auto;
+}
+
+.landing-page h2 {
+	padding-top: 6%;
+}
+
+.landing-page {
+	padding-top: 8%;
+}
+
+.landing-page-body {
+	width: 50%;
+}
+
+.flex-container {
+	width: 100%;
+	margin: auto;
+	background-color: #000000;
+}
+
+.development-environment-flexbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5%;
+	padding: 0px;
+	width: 66%;
+}
+
+.development-environment-right p,
+.development-environment-right h2 {
+	text-align: right;
+}
+
+.development-environment-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+	width: 50%;
+}
+
+.arch-linux-logo {
+	width: 60%;
+}
+
+.raspberry-pi-logo {
+	width: 20%;
+}
+
+.java-block-flexbox {
+	display: flex;
+	width: 66%;
+	justify-content: space-between;
+	gap: 5%;
+	padding: 0px;
+}
+
+.java-block-left {
+	width: 50%;
+}
+
+.java-block-right {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+}
+
+.java-logo {
+	width: 30%;
+}
+
+.java-gui-example {
+	width: 70%;
+}
+
+.language-pathway {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem 1rem;
+	position: relative;
+}
+
+.block {
+	text-align: center;
+	position: relative;
+}
+
+.block::after,
+.block::before {
+	border-radius: 999px;
+}
+
+.block:nth-child(4n+1)::before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 9rem;
+	background: black;
+	top: -8rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.block:nth-child(9)::before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 7rem;
+	background: black;
+	top: -6rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.block:nth-child(4n+2)::after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 6rem;
+	background: black;
+	bottom: -4rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.block:nth-child(10)::after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 7rem;
+	background: black;
+	bottom: -6rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.block:nth-child(odd)::after {
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 80%;
+	background: black;
+	top: 30%;
+	right: -70%;
+	transform: translateY(-50%);
+}
+
+.python-img {
+	width: 27%;
+}
+
+.cs-img {
+	width: 30%;
+}
+
+.header {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.the-frontend {
+	padding-top: 0;
+}
+
+.code-div {
+	width: 70%;
+	background-color: white;
+	margin: auto;
+	padding: 10px;
+	padding-top: 25px;
+	border-radius: 35px;
+	background-color: #121212;
+}
+
+.central {
+	text-align: center;
+}
+
+.the-styling,
+.the-websockets {
+	width: 100%;
+	z-index: 0;
+	background-color: #FFFFFF;
+}
+
+.curve {
+	border-radius: 999px 999px 0 0 / 800px 800px 0 0;
+}
+
+.the-styling-background,
+.the-websockets-background {
+	width: 100%;
+	background-color: #000000;
+	z-index: -2;
+	padding: 0;
+}
+
+.project-2-index,
+.project-3-index {
+	width: 100%;
+}
+
+.project-3-index {
+	padding-bottom: 0;
+}
+
+.raspberry-pi-header {
+	padding-top: 150px;
+	padding-bottom: 175px;
+}
+
+.flex-image {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.mobile-image {
+	width: 17%;
+}
+
+.desktop-image {
+	width: 60%;
+}
+
+.project-1-index {
+	width: 30%;
+	margin-left: 17.5%;
+}
+
+.orange {
+	color: #FF8800;
+}
+
+.blue {
+	color: #61B2FF;
+}
+
+.red {
+	color: #FF4242;
+}
+
+.purple {
+	color: #D364FF;
+}
+
+.grey {
+	color: #7F7F7F;
+}
+
+.dev-ops {
+	width: 100%;
+	height: 1400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 0;
+	margin: 0;
+}
+
+.github {
+	background-color: #000000;
+	color: #FFFFFF;]
+}
+
+.docker {
+}
+
+.aws {
+	background-color: #000000;
+	color: #FFFFFF;]
+}
+
+.content {
+	margin: 0;
+	margin-left: 18%;
+	width: 64%;
+	padding: 0;
+}
+
+.box {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 1400px;
+	padding-bottom: 0;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex: 1;
+	height: 1400px;
+	padding: 0;
+}
+
+.the-future {
+	font-size: 13vw;
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	margin: auto;
+	transform: translateY(-51.5%);
+}
+
+.dev-ops-header {
+	padding-bottom: 50px;
+}
+
+.black-text {
+	color: #000000;
+}
+
+.future-plans {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+.future-perl-logo,
+.future-cs-logo {
+	padding: 50px;
+}
+
+.get-in-touch {
+	width: 25%;
+	margin: auto;
+}
+
+#menu-toggle {
+	position: fixed;
+	right: 35px;
+	top: 35px;
+	text-decoration: none;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+	z-index: 1200;
+}
+
+#navbar {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 135px;
+	padding: 0;
+	z-index: 1000;
+}
+
+#navbar-content {
+	position: fixed;
+	top: 36px;
+	right: 50px;
+	display: flex;
+	width: 0;
+	transition: width 0.3s ease;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	border-radius: 35px;
+	height: 36px;
+	z-index: 10001;
+}
+
+#navbar-content.show {
+	width: 50%;
+}
+
+.menu-item {
+	position: relative;
+	padding: 0;
+	color: #FFFFFF;
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	align-items: center;
+	z-index: 200;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.menu-item.show {
+	overflow: visible;
+}
+
+.menu-item:hover .dropdown {
+	max-height: 500px;
+	opacity: 1;
+}
+
+.dropdown {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background: #000000;
+	width: 100%;
+	z-index: 1002;
+	border-radius: 0 0 37px 37px;
+	max-height: 0;
+	transition: max-height 0.4s ease, opacity 0.3s ease;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.dropdown a {
+	display: block;
+	padding: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	transition: text-shadow 0.3s ease;
+}
+
+.dropdown a:hover {
+	color: #FFFFFF;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.9),
+				 0 0 30px rgba(255, 255, 255, 0.8),
+				 0 0 35px rgba(255, 255, 255, 0.7),
+				 0 0 40px rgba(255, 255, 255, 0.6);
+}
+
+.devops-nav-link {
+	padding-right: 30px;
+}
+
+#notice {
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: black;
+	color: white;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+	z-index: 9999;
+	display: none;
+}
+
+#notice.show {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+#notice {
+	padding: 0;
+	width: 80vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.notice-inner {
+	margin: 0;
+	padding: 20px;
+}
+
+.brand {
+	font-size: 40px;
+	position: fixed;
+	left: 35px;
+	top: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 15px;
+	margin: 0;
+}
+
