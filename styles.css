@@ -390,7 +390,7 @@ pre {
 	border: none;
 	background-color: rgba(0, 0, 0, 0);
 	cursor: pointer;
-	z-index: 1200;
+	z-index: 3000;
 }
 
 #navbar {
@@ -420,7 +420,7 @@ pre {
 }
 
 #navbar-content.show {
-	width: 50%;
+	width: 60%;
 }
 
 .menu-item {
@@ -531,3 +531,120 @@ pre {
 	margin: 0;
 }
 
+@media (max-width: 1700px) {
+	#notice {
+		padding: 0;
+		width: 80vw;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	div[class] {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.brand {
+		font-size: 20px;
+	}
+
+	#navbar {
+		position: fixed;
+		right: 0px;
+		top: 0px;
+		background-color: #FFFFFF;
+		width: 100%;
+		height: 135px;
+	}
+
+	.landing-page-body {
+		width: 90%;
+	}
+
+	.landing-page {
+		padding-top: 100px;
+	}
+
+	p,
+	h1,
+	h2,
+	h3,
+	pre {
+		padding: 20px;
+		margin: 0;
+	}
+
+	.language-pathway {
+		grid-template-columns: 1fr;
+	}
+
+	.block::after,
+	.block::before {
+		display: none;
+	}
+
+	.development-environment-right h2,
+	.development-environment-right p {
+		text-align: left
+	}
+
+	.project-1-index {
+		margin: 0 !important;
+		padding: 0;
+		padding-top: 10px;
+		width: 100%;
+	}
+
+	.the-styling-background img {
+		margin: auto;
+	}
+
+	.mobile-image {
+		width: 50%;
+	}
+
+	.desktop-image {
+		width: 85%
+	}
+
+	.the-frontend div,
+	.the-styling div,
+	.the-backend div,
+	.the-websockets div,
+	.the-server-configuration div,
+	.project-2-index div,
+	.project-3-index div,
+	.dev-ops div {
+		width: auto !important;
+	}
+
+	.the-future {
+		display: none;
+	}
+
+	.dev-ops div {
+		margin: 0;
+	}
+
+	.the-frontend p {
+		width: auto;
+	}
+
+	pre {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	#navbar-content.show {
+		width: 80%;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.devops-nav-link {
+		padding-right: 0;
+	}
+}
